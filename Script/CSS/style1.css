@@ -1,0 +1,99 @@
+:root {
+  --clr-primary: #651fff;
+  --clr-gray: #37474f;
+  --clr-gray-light: #b0bec5;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Open sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--clr-gray);
+  margin: 3rem;
+}
+
+.wrapper-grid {
+	display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.container {
+  box-shadow: 0px 2px 8px 0px var(--clr-gray-light);
+  background-color: white;
+  text-align: left;
+  position: relative;
+  margin: 2rem;
+  padding:20px;
+  border-radius :10px;
+}
+
+.container1 {
+  box-shadow: 0px 2px 8px 0px var(--clr-gray-light);
+  background-color: white;
+  text-align: left;
+  position: relative;
+  margin: 2rem;
+  padding:40px;
+  border-radius : 10px;
+  background-color :#eee;
+  top: 80px;
+}
+
+.profile-img {
+    height: 90px;
+    margin: 0px 30px 20px;
+    width: 8rem;
+    clip-path: circle(40px at center);
+    padding: 2px;
+}
+
+.profile-img1 {
+    margin: 0px 50px 20px;
+    padding: 2px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align:left;
+  margin:0px auto;
+}
+
+.description {
+  font-size: 1rem;
+  margin:20px 0px;
+}
+
+.description1 {
+  font-size: 1.4rem;
+  margin: 2rem 1rem;
+  align-text:center;
+}
+
+.button {
+    border-radius: 5px;
+    padding: 7px;
+    cursor: pointer;
+    background: #f9601e;
+    border: none;
+	margin: 22px 0px 0px 0px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.button:hover {
+  /* background-color: #4CAF50; /* Green */
+  color: white;
+}
